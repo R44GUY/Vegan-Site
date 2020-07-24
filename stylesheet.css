@@ -9,13 +9,6 @@
     box-sizing: border-box;
     position: fixed;
     }
-header {
-    width: 100%;
-    height: 100vh;
-    background-image: url(https://edyoda.s3.ap-south-1.amazonaws.com/public/landing-background.png);
-    background-position: left;
-    background-size: cover;
-}
 .primary-button {
     font-size: 12px;
     font-weight: 600;
@@ -100,7 +93,9 @@ header {
 #main-text-wrapper{
     background-image: url("https://edyoda.s3.ap-south-1.amazonaws.com/public/landing-background.png");
     width: 100%;
-    height: 100%;
+    height: 100vh;
+    background-position: left;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
